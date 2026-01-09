@@ -1,5 +1,6 @@
-cosmic-icons (0.1.0) UNRELEASED; urgency=medium
+armyknife-icons (0.1.0) UNRELEASED; urgency=medium
 
   * Initial release.
+  * Fork from cosmic-icons
 
- -- Ashley Wulber <ashley@system76.com>  Fri, 28 Jul 2023 09:39:19 -0700
+ -- Armyknife Labs <dev@armyknifelabs.com>  Thu, 09 Jan 2026 12:00:00 -0700

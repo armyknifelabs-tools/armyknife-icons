@@ -1,5 +1,5 @@
 {
-  description = "Icons for the COSMIC desktop environment";
+  description = "Icons for the Armyknife desktop environment";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -10,10 +10,10 @@
       with import nixpkgs { system = "x86_64-linux"; };
       stdenv.mkDerivation {
         nativeBuildInputs = [ just ];
-        name = "cosmic-icons";
+        name = "armyknife-icons";
         src = self;
         installPhase = "just prefix=$out install";
       };
 
-  };  
+  };
 }

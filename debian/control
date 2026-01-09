@@ -1,15 +1,15 @@
-Source: cosmic-icons
+Source: armyknife-icons
 Section: admin
 Priority: optional
-Maintainer: Ashley Wulber <ashley@system76.com>
+Maintainer: Armyknife Labs <dev@armyknifelabs.com>
 Build-Depends:
   debhelper (>= 11),
   debhelper-compat (= 11),
   just,
 Standards-Version: 4.3.0
-Homepage: https://github.com/pop-os/cosmic-icons
+Homepage: https://github.com/armyknifelabs-tools/armyknife-icons
 
-Package: cosmic-icons
+Package: armyknife-icons
 Architecture: amd64 arm64
 Depends: pop-icon-theme
-Description: Cosmic Icons
+Description: Armyknife Icons
